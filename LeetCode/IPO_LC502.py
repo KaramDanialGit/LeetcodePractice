@@ -1,3 +1,6 @@
+import heapq
+from typing import List
+
 def findMaximizedCapital(self, k: int, w: int, profits: List[int], capital: List[int]) -> int:
     minHeap = []
     revArr = []
